@@ -1,0 +1,30 @@
+h2 {
+  font-family: arial;
+}
+
+form {
+  display: inline-block;
+}
+
+#button {
+  display: inline-block;
+  height: 20px;
+  width: 70px;
+  background-color: #cc0000;
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+#shoppingList {
+  font-family: IMPACT;
+  color: #cc0000;
+}
+
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
