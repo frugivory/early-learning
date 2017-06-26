@@ -7,8 +7,5 @@ def sqrMe num
 end
 
 result = sqrMe num
-# puts number.to_s +"squared equals" + result.to_s
+
 puts number.to_s+"^2 = "+ result.to_s
-
-
-# puts 3 ** 2

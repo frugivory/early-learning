@@ -24,7 +24,6 @@ end
 
 coins = [Coin.new, Coin.new, Coin.new]
 
-
 coins.each do |coin|
 puts coin.flip
 end
