@@ -1,0 +1,50 @@
+#background {
+  height: 100%;
+  width: 40%;
+  background-color: #ffffff;
+  padding: 10px 0px 10px 20px
+}
+
+h2 {
+  font-family: arial;
+}
+
+form {
+  display: inline-block;
+  width: 120px;
+  padding: 10px 10px 10px 0px;
+    /* margin: 8px 0; */
+}
+
+#button {
+  display: inline-block;
+  height: 20px;
+  width: 70px;
+  background-color:  #cc0000;
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: #cc0000; 
+    color: #cc0000;
+    background-color: #ffffff;
+    border:1px solid #cc0000;
+    cursor: pointer;
+}
+
+#shoppingList {
+  font-family: arial;
+  color: #cc0000;
+}
+
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
