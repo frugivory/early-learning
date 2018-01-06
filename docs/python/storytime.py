@@ -1,6 +1,6 @@
 import random
 
-name = input("what is ur name, fucker?")
+name = input("what is ur name?")
 print("Hello, " + name)
 
 gender = input("What is ur gender?")
@@ -15,8 +15,8 @@ elif gender == "male":
     pronoun = "he"
 else: "she"
 
-names = ["rachel","mary","keiko","allison","autumn","lily"]
-roles = ["marry","fuck","get fucked by","divorce","love","forget"]
+names = ["rachel","mary","caroline","allison","autumn","lily"]
+roles = ["helped","go with","leave","divorce","love","forget"]
 
 
 
