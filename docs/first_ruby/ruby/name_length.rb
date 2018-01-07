@@ -10,4 +10,4 @@ puts "what is your last name?"
 last_name = gets.chomp
 
 name_length = (first_name+middle_name+last_name).to_s.length
-puts name_length
+puts "your name is #{name_length} characters long, nice bro!"
