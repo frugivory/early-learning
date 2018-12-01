@@ -1,7 +1,7 @@
 from guizero import App, Text, TextBox, PushButton, Slider
 
 def say_my_name():
-    welcome_message.set( my_name.get() + ", Welcum to my app!")
+    welcome_message.set( my_name.get() + ", Welcome to my app!")
 
 def change_text_size(slider_value):
     welcome_message.font_size(slider_value)
@@ -13,9 +13,9 @@ def change_text_size(slider_value):
 
 
 app = App(title="Hello, world!")
-    
 
-welcome_message = Text(app, text="Welcum to my app", size=25, font="Impact", color="dark blue")
+
+welcome_message = Text(app, text="Welcome to my app", size=25, font="Impact", color="dark blue")
 
 my_name = TextBox(app,width=25)
 

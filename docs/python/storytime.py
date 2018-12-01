@@ -1,12 +1,12 @@
 import random
 
-name = input("what is ur name?")
+name = raw_input("what is ur name?")
 print("Hello, " + name)
 
-gender = input("What is ur gender?")
+gender = raw_input("What is ur gender?")
 print("u r a " + gender)
 
-dow = input("what day is it?")
+dow = raw_input("what day is it?")
 print("today is " +dow)
 
 if gender == "none":
@@ -15,7 +15,7 @@ elif gender == "male":
     pronoun = "he"
 else: "she"
 
-names = ["rachel","mary","caroline","allison","autumn","lily"]
+names = ["rachel","mary","caroline","allison","autumn","lily","mira"]
 roles = ["helped","go with","leave","divorce","love","forget"]
 
 
