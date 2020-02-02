@@ -1,3 +1,23 @@
-#container {
+/* #container {
 	background-color: red;
+} */
+
+.draw {
+	background-color: black;
 }
+
+#container {
+	background-color: green;
+	height:176px;
+	width:176px;
+}
+
+.cell {
+	background-color: purple;
+	height:9px;
+	width:9px;
+	margin:1px;
+	float:left;
+	/* display: inline-block; */
+}
+
