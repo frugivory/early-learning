@@ -7,7 +7,7 @@ gender = raw_input("What is ur gender?")
 print("u r a " + gender)
 
 dow = raw_input("what day is it?")
-print("today is " +dow)
+print("Today is " +dow)
 
 if gender == "none":
     pronoun = "they"
